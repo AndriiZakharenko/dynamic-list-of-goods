@@ -1,16 +1,28 @@
-# React dynamic list of goods
+# Dynamic list of goods
 
-You have 3 button that should load [the goods](https://mate-academy.github.io/react_dynamic-list-of-goods/goods.json) and show them on the page using the `GoodsList`.
+### Description
 
-1. `Load All goods` should load and show all the `goods`;
-1. `Load 5 first goods` should do the next:
-    - load all the goods;
-    - sort them by name;
-    - and show the first 5;
-1. `Load red goods` should load all the goods show only `red` ones;
-1. Server has only 1 endpoint returning all the goods, so you should do all the preparations in corresponding methods in `/api/goods`.
-1. `GoodsList` is almost finished, you just need to use corresponding colors for `li`s;
+- Implemented the Dynamic List of Goods where info loaded from the local JSON (API) due to filtered params
+  
+### Stack
 
-## Demo Links
+- HTML (BEM)
+- CSS (Bulma)
+- JS
+- Typescript
+- React
+- ReactDOM
+- API (local JSON)
 
-- [DEMO LINK](https://AndriiZakharenko.github.io/react_dynamic-list-of-goods/)
+### Tools
+
+- ESlint
+- Prettier
+- Cypress
+- Mochawesome
+- Babel
+
+### Demo links
+
+- [Demo](https://AndriiZakharenko.github.io/dynamic-list-of-goods/)
+
